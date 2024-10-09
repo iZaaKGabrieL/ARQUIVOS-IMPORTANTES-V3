@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@500&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html{
+ background-color: white;
+ border-radius: 5px;
+ box-sizing: border-box;
+}
+
+hr{
+  background-color:#FEFF6F;
+  margin: 3px;
+  padding: 1px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #3F3F3F87;
+  border: 1px solid #3B73F5;
+}
+
+
+
+header{
+  background-color: #0E2A56;
+  min-height:15px;
+  padding:14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+
+header > h1{
+
+  color: #FFFFFF;
+  text-align:center;
+  font-size:3.5em;
+  text-shadow: 1px 1px 0px black;
+  font-weight: 300;
+  font-family:"Lilita One", sans-serif;
+}
+
+header > p{
+  color:#FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:8px;
+  padding:30px;
+  text-align:center;
+  text-shadow: 2px 1px 1px black;
+}
+
+section{
+  background-color:#ffffff ;
+  padding: 4px;
+  margin: 4px;
+}
+
+section > p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #040a14;
+  line-height:1.5em;
+  font-size:1em;
+}
+
+.itens ul > li{
+  display: inline-block;
+  padding: 5px;
+  
+}
+
+.itens ul > li > a{
+  text-align: center;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 9px;
+  color: #F7FAFF;
+}
+
+.itens ul > li > a:hover{
+  text-align: center;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  background-color: #275fe0;
+  padding: 8px;
+  border-radius: 9px;
+  color: #F7FAFF;
+}
+
+.itens ul > li > a:active{
+  text-align: center;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 9px;
+  color: #000000;
+}
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
