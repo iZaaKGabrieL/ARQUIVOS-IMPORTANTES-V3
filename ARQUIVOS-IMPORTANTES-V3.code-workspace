@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/ARQUIVOS-IMPORTANTES-V3-main/ISAAC"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ARQUIVOS-IMPORTANTES-V3"
+	}
+}
