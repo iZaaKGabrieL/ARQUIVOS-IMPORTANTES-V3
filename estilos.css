@@ -163,3 +163,24 @@ footer{
   font-weight: 200;
   color: #F7FAFF;
 }
+
+div#foto{
+  background-color: #010a29;
+  border-radius: 100%;
+  width: 100px;
+  overflow: hidden;
+  height: 100px;
+  margin: 8px;
+}
+
+p#nome{
+  text-align: justify;
+  transform: translate(6%,-380%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p#desc{
+  text-align: justify;
+  transform: translate(6%,-360%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
