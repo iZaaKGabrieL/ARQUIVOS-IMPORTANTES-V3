@@ -50,8 +50,10 @@
 body, html{
  background-color: white;
  border-radius: 5px;
- height: 100%;
-
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
  box-sizing: border-box;
 }
 
@@ -68,14 +70,11 @@ hr{
 
 header{
   background:linear-gradient(to right, #020024, #090979, #010a29);
-  min-height:15px;
-  padding:14px;
+  min-height:18px;
+  padding:20px;
   display: flex;
-  
+  justify-content: space-between;
   align-items: center;
-  
-  
- 
 }
 
 header > h1{
@@ -83,7 +82,7 @@ header > h1{
   color: #FFFFFF;
   text-align:center;
   font-size:2.5em;
-  margin-right: 810pt;
+  margin-right: 1000pt;
   text-shadow: 1px 1px 0px black;
   font-weight: 100px;
   
@@ -115,6 +114,7 @@ section > p{
 .itens ul > li{
   display: inline-block;
   float: right;
+  list-style: none;
   padding: 5px;
   
 }
