@@ -170,13 +170,26 @@ div#foto{
   width: 100px;
   overflow: hidden;
   height: 100px;
+  border: 2px solid  #090979;
+
   margin: 8px;
 }
 
-p#nome{
+div#foto img{
+  background-position: center center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+div#nome > p{
   text-align: justify;
-  transform: translate(6%,-380%);
+  transform: translate(6%,-390%);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p#nome{
+
 }
 
 p#desc{
