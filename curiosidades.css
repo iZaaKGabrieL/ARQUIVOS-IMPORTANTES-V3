@@ -41,6 +41,7 @@ header{
 div{
   background-image: linear-gradient(to bottom, #52B791, #70BA79);
   border-radius: 30px;
+  width: 300px;
   display: block;
   
 }
