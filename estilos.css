@@ -39,6 +39,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 :root{
@@ -49,12 +50,11 @@
 
 body, html{
  background-color: white;
- border-radius: 5px;
  height: 100vh;
+ overflow: hidden;
  margin: 0;
  padding: 0;
- overflow-x: hidden;
- box-sizing: border-box;
+ 
 }
 
 hr{
@@ -70,8 +70,8 @@ hr{
 
 header{
   background:linear-gradient(to right, #020024, #090979, #010a29);
-  min-height:18px;
   padding:20px;
+  border-radius: -40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,10 +135,10 @@ section > p{
   text-decoration: none;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
-  background-color: #002069;
+  background-color: #0236b1;
   padding: 8px;
   border-radius: 9px;
-  color: #F7FAFF;
+  color: #ddedff;
 }
 
 .itens ul > li > a:active{
