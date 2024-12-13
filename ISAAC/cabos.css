@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: #ffffff;
+}
+
 .cabeca{
     background-color: black;
     color: white;
@@ -81,7 +85,11 @@ div#cabo3{
     border-radius: 8px;
 }
 
-
+div#usb{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 summary {
     text-align:center;
@@ -108,4 +116,20 @@ span{
     color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 900px;
+    
+}
+
+mark{
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 4px;
+    left: 5px;
+}
+
 
