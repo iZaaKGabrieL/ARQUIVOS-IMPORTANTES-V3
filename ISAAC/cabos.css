@@ -42,8 +42,9 @@ img{
 
 }
 
-.cabos h2{
+ h2, h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     bottom: 50px;
 }
 
