@@ -38,6 +38,7 @@ div#ferrari{
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-sizing: border-box;
 }
 
 div#ferrari:hover{
@@ -74,6 +75,7 @@ div#texto > p{
     font-size: small;
     overflow-y: auto; /*barra de rolagem*/
     left: 20px;
+    display: flex;
     bottom: 30px;
     
 }
@@ -83,7 +85,6 @@ div#texto > p:hover{
     font-family: "Comfortaa", sans-serif;
     padding: 5px;
     color: white;
-    display: block;
     position: absolute;
     height: 400px;
     text-align: left;
@@ -91,7 +92,6 @@ div#texto > p:hover{
     overflow-y: auto; /*barra de rolagem*/
     left: 20px;
     bottom: 30px;
-    display: none;
     overflow-y: auto; /*barra de rolagem*/
     left: 20px;
     bottom: 30px;
@@ -147,8 +147,13 @@ h2#motor{
 div#interior{
     background-image: url(Ferrari-sf90-spider-7.webp);
     background-position: center center;
+    position: absolute;
+    top: 109%;
+    width: 100%;
+    transform: translate();
     background-size: cover;
-    margin-top: 540px;
+    display: flex;
+    
 
 
     
