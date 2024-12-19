@@ -19,7 +19,7 @@
 
 
 header{
-background-color: black;
+background-color: rgb(189, 0, 0);
 padding: 5px;
 color: white;
 }
@@ -159,6 +159,7 @@ div#interior{
     top: 109%;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
     background-size: cover;
     display: flex;
 
@@ -182,6 +183,7 @@ div#interior > p{
     margin: 4px;
     transform: translate(290%, 50%);
     overflow-y: scroll;
+    overflow-x: hidden;
     
     
 
@@ -213,6 +215,46 @@ div#interior > p::-webkit-scrollbar-track {
     width: 6px;
     background-color: rgba(250, 235, 215, 0); /* Cor de fundo do track (onde a barra de rolagem se move) */
 }
+
+div#rodas{
+    background-image:url(pneu-ferrari.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    top: 205%;
+    overflow-x: hidden;    
+
+}
+
+div#rodas:hover{
+    background-image:  linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.39) 75%), url(pneu-ferrari.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    overflow-x: hidden;
+    top: 205%;
+
+}
+
+div#rodas > p{
+    width: 500px;
+    font-family:   "Comfortaa", sans-serif;
+    text-align: right;
+    color: white;
+    font-size: smaller;
+    height: 500px;
+    margin: 4px;
+    transform: translate(290%, 50%);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 
 
 ul{
